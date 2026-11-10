@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f9e3ff">
+  <title>Portafolio | Danny G</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="portfolio-page">
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">Ð</span>
+    <span>DANNY G</span>
+  </a>
+
+  <button class="menu-toggle" type="button"
+    aria-label="Abrir menú" aria-expanded="false"
+    aria-controls="main-navigation">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="main-nav" id="main-navigation">
+    <a href="index.html">Inicio</a>
+    <a class="active" href="portafolio.html">Portafolio</a>
+    <a href="#marcas">Marcas</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <div class="header-tools">
+    <form class="search-box" role="search">
+      <button type="submit" aria-label="Buscar">
+        <span class="search-icon"></span>
+      </button>
+      <input type="search" placeholder="Buscar"
+        aria-label="Buscar en el sitio">
+    </form>
+
+    <button class="cart-button" type="button"
+      aria-label="Carrito de compras">
+      <span>🛒</span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero-heading portfolio-heading">
+    <div class="heading-first">
+      <h1>DISEÑANDO</h1>
+      <span class="sparkle">✦</span>
+    </div>
+
+    <div class="heading-second">
+      <span class="yellow-line"></span>
+      <h2>ANDO</h2>
+    </div>
+  </section>
+
+  <section class="portfolio-intro">
+
+    <div class="intro-copy">
+      <p>
+        <strong>
+          Bienvenido a mi universo creativo, donde encontrarás
+          proyectos que reflejan mi pasión por el diseño gráfico.
+        </strong>
+        <br>
+        Desde identidades visuales y empaques hasta contenido
+        para redes sociales y diseño editorial, cada proyecto
+        es una oportunidad para experimentar y transformar
+        ideas en propuestas visuales.
+      </p>
+
+      <p class="intro-emphasis">
+        ¡Descubre mi historia a través de mi trabajo!
+      </p>
+    </div>
+
+    <div class="featured-project" id="marcas">
+      <div class="featured-image">
+
+        <img src="assets/diseno.jpg"
+          alt="Composición artística de diseño gráfico">
+
+        <a class="pill-button" href="#proyectos">
+          Conoce más
+        </a>
+
+        <a class="image-arrow" href="#proyectos"
+          aria-label="Ver proyectos">→</a>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="projects-section" id="proyectos">
+
+    <div class="section-heading">
+      <p class="eyebrow">Una selección de mi trabajo</p>
+      <h2>Ideas que toman forma</h2>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-placeholder project-lilac">
+          <span>01</span>
+          <h3>Identidad visual</h3>
+        </div>
+        <p>Marcas con personalidad y propósito.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-placeholder project-yellow">
+          <span>02</span>
+          <h3>Packaging</h3>
+        </div>
+        <p>Diseño que conecta desde el primer vistazo.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-placeholder project-pink">
+          <span>03</span>
+          <h3>Contenido digital</h3>
+        </div>
+        <p>Piezas gráficas para comunicar en redes.</p>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© <span class="current-year"></span> Danny G · Diseño gráfico</span>
+</footer>
+
+</body>
+</html>
